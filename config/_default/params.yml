@@ -14,9 +14,9 @@ menu:
   - name: about
     url: "about"
     icon:
-  - name: friend
-    url: "friend"
-    icon:
+  #- name: friend
+  #  url: "friend"
+  #  icon:
 
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
@@ -26,9 +26,9 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-description: "少女祈祷中..."
-subtitle: "少女祈祷中..."
+author: Orion
+description: ""
+subtitle: ""
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url
@@ -63,7 +63,7 @@ open_graph:
 excerpt_link: Read More
 
 footer:
-  since: 2020 # 2020-current year
+  since: 2025 # 2020-current year
   powered: true
   count: true
   busuanzi: true
@@ -76,12 +76,12 @@ footer:
 sidebar: right
 
 social:
-  # email: mailto:xxx@gmail.com
-  # github: https://github.com/yourname
+  email: mailto:oe3ogc@oriongamercat.com
+  github: https://github.com/OrionGamerCat
   # google: https://plus.google.com/yourname
-  # twitter: https://twitter.com/yourname
+  twitter: https://twitter.com/OrionGamerCat
   # facebook: https://www.facebook.com/yourname
-  # instagram: https://www.instagram.com/yourname
+  instagram: https://www.instagram.com/oriongamercat
   # linkedin: https://www.linkedin.com/in/yourname
   # pinterest: https://www.pinterest.com/yourname
   # youtube: https://www.youtube.com/channel/yourname
@@ -99,8 +99,8 @@ social:
   # stackoverflow: https://stackoverflow.com/users/yourname
   # keybase: https://keybase.io/yourname
   # telegram: https://t.me/yourname
-  # discord: https://discordapp.com/users/yourname
-  # steam: https://steamcommunity.com/id/yourname
+  discord: https://discordapp.com/users/oriongc
+  steam: https://steamcommunity.com/id/oriongamercat
 
 widgets:
   - category
@@ -117,7 +117,7 @@ recent_posts_limits: 5
 
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
 
-reimu_cursor: true
+reimu_cursor: false
 
 icon_font: 4552607_tq6stt6tcg
 
@@ -130,7 +130,7 @@ font:
   code:
     # - Ubuntu Mono
     # - Source Code Pro
-    # - JetBrains Mono
+    - JetBrains Mono
 
 # Local FallBack Font
 local_font:
@@ -146,7 +146,7 @@ local_font:
     - monospace
 
 dark_mode:
-  enable: false # set to true to make your website default to dark mode
+  enable: true # set to true to make your website default to dark mode
 
 ########################################
 # Analytics
@@ -454,7 +454,7 @@ player:
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
       audio: []
       fixed: true
@@ -468,7 +468,7 @@ player:
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
-    enable: false
+    enable: true
     meting_api: # custom api
     options:
       id: 2265921590
